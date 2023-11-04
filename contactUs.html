@@ -1,20 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Wholesale Foods</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <ul class="topnav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="contactUs.html">Contact Us</a></li>
-      </ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contactUs.html">Contact Us</a></li>
+    </ul>
+
+    <div class="container">
+      <div class="address">
+        <div class="help-cards">
+          <img src="resources/help.jpg" alt="" />
+          <p>
+            "Indulge in a world of culinary delights at Wholesale Food, your
+            ultimate online destination for premium quality ingredients at
+            unbeatable prices! Discover a wide range of fresh produce, pantry
+            essentials, and gourmet treats sourced directly from trusted
+            suppliers. Whether you're a home cook, a food enthusiast, or a
+            professional chef, our extensive selection caters to all your
+            culinary needs. From farm-fresh fruits and vegetables to exotic
+            spices and organic grains, we take pride in offering top-notch
+            products that elevate your cooking experience. With convenient
+            doorstep delivery and a user-friendly interface, shopping at
+            Wholesale Food is not just a transaction; it's a delightful culinary
+            journey. Join our community of satisfied customers and savor the
+            taste of quality and affordability. Embark on a gastronomic
+            adventure today – shop at Wholesale Food and let your taste buds
+            rejoice!"
+          </p>
+        </div>
+        <div class="help-cards">
+          <p style="margin-left: 5%">
+            <span class="highlight">Our Address: </span><br />
+            1118, Ibrahimpur, Kafrul, Dhaka-1206
+          </p>
+
+          <img src="resources/help2.jpeg" alt="" />
+        </div>
+      </div>
 
 
-      <footer>All rights reserved by ©Wholesale Foods 2023</footer>
-</body>
+
+      <div class="contact-form">
+      <h3>Contact Information</h3>
+      Enter Name:
+      <input id="nameBox" type="text"> <br><br>
+      Enter Your Marks:
+      <input id="markBox" type="text"><br><br>
+      Enter Number:
+      <input id="phoneBox" type="text"><br><br>
+      <button onclick="showPersonInfo()">
+          Find Details
+      </button>
+      <div id="content">
+  
+  
+      </div>
+
+    </div>
+    </div>
+
+    
+
+    <footer>All rights reserved by ©Wholesale Foods 2023</footer>
+
+
+
+
+
+    <script src="showPersonInfo.js">
+
+    </script>
+  </body>
 </html>

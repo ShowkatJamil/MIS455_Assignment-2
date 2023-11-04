@@ -150,6 +150,36 @@ footer{
 }
 
 
+.address{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.help-cards{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.help-cards img{
+  width: 50%;
+}
+
+.help-cards p{
+  width: 100%;
+  line-height: 25px;
+}
+
+.highlight{
+  font-size: x-large;
+  font-weight: bolder;
+  color: rgb(82, 32, 129);
+}
+
+
+
 
 
 
